@@ -30,6 +30,13 @@ This is the Official Android Application of Jagrati - An Initiative by IIITians
 - REST-API
 
 ---
+## Screenshots
+
+![login](/screenshots/login.jpg)
+![home](/screenshots/home.jpg)
+![profile](/screenshots/profile.jpg)
+
+---
 ## How to Contribute
 - Checkout [CONTRIBUTING.md](CONTRIBUTING.md) file
 
