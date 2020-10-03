@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_event">
+
+    <fragment
+        android:id="@+id/navigation_event"
+        android:name="com.priyanshnama.jagrati.ui.event.EventFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_event" />
+
+    <fragment
+        android:id="@+id/navigation_classes"
+        android:name="com.priyanshnama.jagrati.ui.classes.ClassesFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_classes" />
+
+    <fragment
+        android:id="@+id/navigation_material"
+        android:name="com.priyanshnama.jagrati.ui.material.MaterialFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_material" />
+
+    <fragment
+        android:id="@+id/navigation_teaching"
+        android:name="com.priyanshnama.jagrati.ui.teaching.TeachingFragment"
+        android:label="@string/title_teaching"
+        tools:layout="@layout/fragment_teaching" />
+</navigation>

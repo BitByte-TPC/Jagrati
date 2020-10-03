@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/frame"
+            android:contentDescription="@string/frame" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="@string/email"
+                android:ems="10"
+                android:maxLines="1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="20dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/colorPrimary">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/password"
+                android:imeOptions="actionGo"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="20dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp">
+
+            <include
+                android:id="@+id/layout_login"
+                layout="@layout/layout_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <include
+                android:id="@+id/layout_signup"
+                layout="@layout/layout_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </RelativeLayout>
+
+        <ViewAnimator
+            android:id="@+id/animator_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inAnimation="@anim/slide_down_text"
+            android:outAnimation="@anim/slide_up_text">
+
+            <Space
+                android:id="@+id/view_message_empty"
+                android:layout_width="0dp"
+                android:layout_height="16dp" />
+
+            <TextView
+                android:id="@+id/text_message_authentication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/message_error_authentication"
+                android:textColor="@color/error_red"
+                app:drawableStartCompat="@drawable/ic_error_24dp" />
+
+            <TextView
+                android:id="@+id/text_message_authentication_connection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/message_error_authentication_connection"
+                android:textColor="@color/error_red"
+                app:drawableStartCompat="@drawable/ic_error_24dp" />
+
+            <TextView
+                android:id="@+id/text_message_authentication_empty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/message_error_authentication_field_empty"
+                android:textColor="@color/error_red"
+                app:drawableStartCompat="@drawable/ic_error_24dp" />
+
+            <TextView
+                android:id="@+id/text_message_password_do_not_match"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/message_error_password_do_not_match"
+                android:textColor="@color/error_red"
+                app:drawableStartCompat="@drawable/ic_error_24dp" />
+
+            <TextView
+                android:id="@+id/text_message_email_incorrect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/message_error_invalid_email"
+                android:textColor="@color/error_red"
+                app:drawableStartCompat="@drawable/ic_error_24dp" />
+
+            <TextView
+                android:id="@+id/text_message_password_too_short"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/message_error_small_password"
+                android:textColor="@color/error_red"
+                app:drawableStartCompat="@drawable/ic_error_24dp" />
+
+            <TextView
+                android:id="@+id/text_message_password_does_not_have_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/message_error_no_number_in_password"
+                android:textColor="@color/error_red"
+                app:drawableStartCompat="@drawable/ic_error_24dp" />
+
+        </ViewAnimator>
+    </LinearLayout>
+</ScrollView>

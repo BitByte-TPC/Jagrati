@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF17E02</color>
+    <color name="colorPrimaryDark">#FFBE5504</color>
+    <color name="colorAccent">#E86F11</color>
+
+    <color name="colorSecondary">#0048FF</color>
+    <color name="colorSurface">#FFF00FF0</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="error_red">#FFFF0033</color>
+    <color name="fine_line">#FFD8D8D8</color>
+
+    <color name="transparent">#00FFFFFF</color>
+</resources>

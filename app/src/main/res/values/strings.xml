@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Jagrati</string>
+    <string name="main_poster">Main Poster</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="roll_no_icon">roll no icon</string>
+    <string name="rollno">RollNo</string>
+    <string name="contactno">contactNo</string>
+    <string name="alternate_email">Alternate Email</string>
+    <string name="email_icon">email icon</string>
+    <string name="birthday_icon">birthday icon</string>
+    <string name="birthday">Birthday</string>
+
+    <string name="message_error_authentication">The username or password are not correct. Please try again.</string>
+    <string name="message_error_authentication_connection">Connection error. Check your settings and try again.</string>
+    <string name="message_error_authentication_field_empty">Username or Password field cannot be left empty</string>
+
+    <string-array name="batch">
+        <item>2019</item>
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="frame">frame</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="signup">Signup</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="login"> Login</string>
+    <string name="don_t_have_a_account_yet">Don\'t have a account yet</string>
+    <string name="email">Email</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="message_error_password_do_not_match">Passwords do not match</string>
+    <string name="message_error_invalid_email">Not a valid Email id</string>
+    <string name="message_error_small_password">Password should have minimum 8 characters</string>
+    <string name="message_error_no_number_in_password">Password should have minimum 1 number</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_events">Events</string>
+    <string name="title_classes">Classes</string>
+    <string name="title_material">Material</string>
+    <string name="title_teaching">Teaching</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="txt_back_button">back button</string>
+    <string name="my_profile">My Profile</string>
+    <string name="phone">Phone</string>
+
+
+<!--    sample data-->
+    <string name="sampleAddress">Room No - 402, Hall - 4\nIIITDM, Jabalpur, 482005, Madhaya Pradesh</string>
+</resources>

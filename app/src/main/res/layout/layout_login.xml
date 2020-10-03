@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:textAppearance="@style/BlackText"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/login"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:onClick="login"
+        android:background="@drawable/rounded_button"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textStyle="normal|bold" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/don_t_have_a_account_yet"
+            android:textAppearance="@style/BlackText" />
+
+        <TextView
+            android:id="@+id/go_to_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="go_to_signup"
+            android:text="@string/signup"
+            android:paddingStart="3sp"
+            android:paddingEnd="3dp"
+            android:background="@drawable/dotted_lines"
+            android:textAppearance="@style/LinkText" />
+    </LinearLayout>
+
+</LinearLayout>
