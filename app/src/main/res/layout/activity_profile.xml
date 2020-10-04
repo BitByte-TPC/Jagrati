@@ -63,7 +63,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="12dp"
-                    android:text="Attendance"
+                    android:text="@string/attendance"
                     android:textAppearance="@style/BlackText"
                     app:layout_constraintStart_toEndOf="@+id/profile_image"
                     app:layout_constraintTop_toBottomOf="@+id/info" />
@@ -85,7 +85,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="6dp"
-                    android:text="Extra Classes"
+                    android:text="@string/extra_classes"
                     android:textAppearance="@style/BlackText"
                     app:layout_constraintEnd_toStartOf="@+id/extraClass"
                     app:layout_constraintTop_toBottomOf="@+id/info" />
@@ -234,7 +234,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Contact Number"
+                    android:text="@string/contact_number"
                     android:textAppearance="@style/LinkText" />
 
                 <TextView
@@ -263,7 +263,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Hide for Public   " />
+                android:text="@string/hide_for_public" />
 
             <Space
                 android:layout_width="match_parent"
@@ -289,7 +289,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Address"
+                    android:text="@string/address"
                     android:textAppearance="@style/LinkText" />
 
                 <ImageView
@@ -335,7 +335,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Hobbies"
+                    android:text="@string/hobbies"
                     android:textAppearance="@style/LinkText" />
 
                 <ImageView
@@ -369,7 +369,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Skill Set"
+                    android:text="@string/skill_set"
                     android:textAppearance="@style/LinkText" />
 
                 <ImageView
