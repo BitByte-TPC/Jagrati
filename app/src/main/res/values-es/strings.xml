@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Jagrati</string>
+    <string name="main_poster">Cartel principal</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="roll_no_icon">roll no icon</string>
+    <string name="rollno">RollNo</string>
+    <string name="contactno">contactNo</string>
+    <string name="alternate_email">Correo electrónico alternativo</string>
+    <string name="email_icon">email icon</string>
+    <string name="birthday_icon">birthday icon</string>
+    <string name="birthday">Cumpleaños</string>
+
+    <string name="message_error_authentication">El nombre de usuario o la contraseña no son correctos. Inténtalo de nuevo.</string>
+    <string name="message_error_authentication_connection">Error de conexión. Verifica su configuración y vuelva a intentarlo.</string>
+    <string name="message_error_authentication_field_empty">El campo de nombre de usuario o contraseña no se puede dejar vacíos.</string>
+
+    <string-array name="batch">
+        <item>2019</item>
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión o registrarse</string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="welcome">"!Bienvenido!"</string>
+    <string name="invalid_username">Usuario no válido</string>
+    <string name="invalid_password">la contraseña debe de contener al menos 5 caracteres</string>
+    <string name="login_failed">"Inicio de sesión fallido"</string>
+    <string name="frame">marco</string>
+    <string name="enter_email">Introduce el email</string>
+    <string name="enter_password">Introduce la contraseña</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="password">Contraseña</string>
+    <string name="signup">Registrarse</string>
+    <string name="already_have_an_account">Ya tienes una cuentat</string>
+    <string name="forgot_password">¿Contraseña olvidada?</string>
+    <string name="login"> Iniciar sesión</string>
+    <string name="don_t_have_a_account_yet">Todavía no tienes una cuentat</string>
+    <string name="email">Email</string>
+    <string name="log_out">CERRAR SESIÓN</string>
+    <string name="message_error_password_do_not_match">Las contraseñas no coinciden</string>
+    <string name="message_error_invalid_email">Identificación de correo electrónico no válida</string>
+    <string name="message_error_small_password">La contraseña debe tener un mínimo de 8 caracteres</string>
+    <string name="message_error_no_number_in_password">La contraseña debe tener un número mínimo de 1</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Tablero</string>
+    <string name="title_events">Eventos</string>
+    <string name="title_classes">Clases</string>
+    <string name="title_material">Material</string>
+    <string name="title_teaching">Enseñanza</string>
+    <string name="title_notifications">Notificaciones</string>
+    <string name="txt_back_button">botón para retroceder</string>
+    <string name="my_profile">Mi Perfil</string>
+    <string name="phone">Número de teléfono</string>
+
+
+<!--    Profile-->
+    <string name="sampleAddress">Room No - 402, Hall - 4\nIIITDM, Jabalpur, 482005, Madhaya Pradesh</string>
+    <string name="contact_number">Número de Contacto</string>
+    <string name="hide_for_public">Ocultar al Público</string>
+    <string name="address">Dirección</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="skill_set">Conjunto de habilidades</string>
+    <string name="attendance">Asistencia</string>
+    <string name="extra_classes">Clases extra</string>
+</resources>
