@@ -10,7 +10,7 @@
 
 1. Submit an issue describing your proposed change.
 2. Fork the repository on GitHub.
-3. Clone the fork : `git clone https://github.com/your-username/android.git`
+3. Clone the fork
 
 ## Making Changes
 
