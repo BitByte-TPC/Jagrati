@@ -56,7 +56,7 @@
     <string name="phone">Phone</string>
 
 
-<!--    sample data-->
+    <!--    sample data-->
     <string name="sampleAddress">Room No - 402, Hall - 4\nIIITDM, Jabalpur, 482005, Madhaya Pradesh</string>
     <string name="contact_number">Contact Number</string>
     <string name="hide_for_public">Hide for Public</string>
