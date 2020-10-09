@@ -37,7 +37,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
             @Override
             public void onItemClickListener(View v, int position) {
                 String gClassNo=models.get(position).getClassNo();
-                Intent intent = new Intent(c, SecondActivity.class);
+                Intent intent = new Intent(c, ClassMater.class);
                 intent.putExtra("iClassNo",gClassNo);
                 c.startActivity(intent);
             }
